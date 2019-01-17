@@ -16,3 +16,7 @@ http://eclipse.c3sl.ufpr.br/mosquitto/binary/win64/mosquitto-1.5.4-install-windo
 # trap
 https://www.shellscript.sh/trap.html
 https://rimuhosting.com/knowledgebase/linux/misc/trapping-ctrl-c-in-bash
+
+
+# perl
+https://stackoverflow.com/questions/5472507/how-do-i-output-a-text-table-in-perl
