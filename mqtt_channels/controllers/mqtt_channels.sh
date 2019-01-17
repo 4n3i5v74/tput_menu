@@ -1,14 +1,21 @@
 #!/usr/bin/env bash
+function menu() {
 
 # tpu_menu: un programa de iformacion del sistema controlada por menu
-
-BG_BLUE="$(tput setab 4)" # color de fondo azul
-BG_BLACK="$(tput setab 0)" # color de fondo negro
-FG_GREEN="$(tput setaf 2)" # color de fuente verde
-FG_WHITE="$(tput setaf 7)" # color de fuente blanco 
+# color de fondo azul
+BG_BLUE="$(tput setab 4)" 
+# color de fondo negro
+BG_BLACK="$(tput setab 0)" 
+# color de fuente verde
+FG_GREEN="$(tput setaf 2)" 
+# color de fuente blanco 
+FG_WHITE="$(tput setaf 7)" 
 
 # Guardar pantalla
 tput smcup
+
+# trap ctrl-c and call ctrl_c()
+trap ctrl_c INT
 
 # Mostrar menu hasta que la seleccion sea igual a 0
 while [[ $REPLY != 0 ]]; do
@@ -66,3 +73,4 @@ done
 # Restaurar pantalla
 tput rmcup
 echo "Cerrando aplicación"
+}
