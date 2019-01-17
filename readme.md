@@ -1,9 +1,11 @@
 # tpu menu
 http://linuxcommand.org/lc3_adv_tput.php
-https://developer.xively.com/docs/pub-and-sub-with-mosquitto-1
-
+https://www.gnu.org/software/termutils/manual/termutils-2.0/html_chapter/tput_1.html
+https://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/x405.html
 
 ## mqtt
+
+https://developer.xively.com/docs/pub-and-sub-with-mosquitto-1
 https://mosquitto.org/download/
 linux
 https://mosquitto.org/files/source/mosquitto-1.5.5.tar.gz

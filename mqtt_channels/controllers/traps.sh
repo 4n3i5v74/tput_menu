@@ -3,5 +3,6 @@ function ctrl_c() {
         echo -n "exit from here"
         # Restaurar pantalla
         tput rmcup
+        echo "Cerrando aplicación"
         exit
 }
