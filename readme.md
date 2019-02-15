@@ -1,4 +1,4 @@
-# tpu menu
+# tput menu
 http://linuxcommand.org/lc3_adv_tput.php
 https://www.gnu.org/software/termutils/manual/termutils-2.0/html_chapter/tput_1.html
 https://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/x405.html
